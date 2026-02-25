@@ -511,9 +511,9 @@
                 <!-- Audio 1 -->
                 <div class="audio-card reveal">
                     <div class="audio-card__user">
-                        <img src="fthomem.webp" alt="Aluno" class="audio-card__avatar-img">
+                        <img src="fthomem.webp" alt="Eduardo" class="audio-card__avatar-img">
                         <div>
-                            <h4 style="font-size: 18px;">Aluno do Método</h4>
+                            <h4 style="font-size: 18px;">Eduardo</h4>
                             <span style="color: var(--text-muted); font-size: 14px;">Dono de negócio físico</span>
                         </div>
                     </div>
@@ -543,9 +543,9 @@
                 <!-- Audio 2 -->
                 <div class="audio-card reveal">
                     <div class="audio-card__user">
-                        <img src="ftmulher.webp" alt="Aluna" class="audio-card__avatar-img">
+                        <img src="ftmulher.webp" alt="Luana" class="audio-card__avatar-img">
                         <div>
-                            <h4 style="font-size: 18px;">Aluna do Método</h4>
+                            <h4 style="font-size: 18px;">Luana</h4>
                             <span style="color: var(--text-muted); font-size: 14px;">Começou do zero</span>
                         </div>
                     </div>
