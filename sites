@@ -90,10 +90,6 @@
         .vsl-placeholder__icon { font-size: 48px; margin-bottom: 12px; opacity: 0.5; }
         .vsl-placeholder__label { font-size: 14px; color: var(--text-muted); }
 
-        /* ================= COMMON ENEMY ================= */
-        .enemy-box { max-width: 800px; margin: 20px auto 80px; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); border-radius: 20px; padding: 40px 50px; text-align: left; }
-        .enemy-tag { display: inline-flex; align-items: center; gap: 8px; background: rgba(239, 68, 68, 0.08); color: #EF4444; padding: 8px 18px; border-radius: 100px; font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 20px; border: 1px solid rgba(239, 68, 68, 0.15); }
-
         /* ================= MECHANISM (3 STEPS) ================= */
         .mechanism-section { padding: 80px 0; }
         .steps-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 50px; }
@@ -112,13 +108,6 @@
         .section-header { text-align: center; margin-bottom: 50px; }
         .section-tag { display: inline-block; font-size: 13px; font-weight: 700; color: #34D399; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 16px; padding: 6px 16px; background: rgba(16, 185, 129, 0.08); border-radius: 100px; }
         .section-title { font-family: var(--ff-heading); font-size: clamp(28px, 4.5vw, 44px); font-weight: 800; line-height: 1.15; letter-spacing: -1px; }
-
-        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
-        .feature-card { background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 24px; padding: 36px 28px; transition: all 0.3s; backdrop-filter: blur(12px); position: relative; overflow: hidden; }
-        .feature-card:hover { border-color: rgba(16,185,129,0.3); transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.5); }
-        .feature-card__icon { width: 56px; height: 56px; background: rgba(255,255,255,0.05); border-radius: 14px; display: flex; align-items: center; justify-content: center; font-size: 26px; margin-bottom: 20px; border: 1px solid rgba(255,255,255,0.05); }
-        .feature-card__title { font-family: var(--ff-heading); font-size: 20px; font-weight: 700; margin-bottom: 12px; }
-        .feature-card__desc { color: var(--text-muted); font-size: 14px; line-height: 1.6; }
 
         /* ================= MENTOR ================= */
         .mentor-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
@@ -204,16 +193,7 @@
         .wa-voice__check { font-size: 11px; color: #34D399; letter-spacing: -2px; font-weight: 800; }
 
         /* ================= OBJECTION ITEMS ================= */
-        .objection-item:hover { border-color: rgba(239, 68, 68, 0.2); }
-
-        /* ================= WHAT YOU GET ================= */
-        .module-list { max-width: 700px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px; }
-        .module-item { display: flex; align-items: flex-start; gap: 18px; background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 16px; padding: 24px; transition: 0.3s; }
-        .module-item:hover { border-color: rgba(16,185,129,0.2); }
-        .module-item__icon { width: 48px; height: 48px; background: rgba(16,185,129,0.08); border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 22px; flex-shrink: 0; }
-        .module-item__title { font-family: var(--ff-heading); font-size: 17px; font-weight: 700; margin-bottom: 6px; }
-        .module-item__desc { font-size: 14px; color: var(--text-muted); line-height: 1.5; }
-        .module-item__tag { display: inline-block; font-size: 11px; font-weight: 700; color: #FBBF24; background: rgba(251,191,36,0.1); padding: 3px 10px; border-radius: 100px; margin-top: 8px; }
+        .objection-item:hover { border-color: rgba(16, 185, 129, 0.2); }
 
         /* ================= PRICING ================= */
         .pricing-wrapper { max-width: 520px; margin: 0 auto; }
@@ -251,9 +231,6 @@
         .faq-item.open .faq-answer { max-height: 300px; }
         .faq-answer__inner { padding: 0 24px 20px; color: var(--text-muted); font-size: 15px; line-height: 1.7; }
 
-        /* ================= FINAL CTA ================= */
-        .final-cta { text-align: center; padding: 80px 0 40px; }
-
         /* ================= BUTTONS ================= */
         .btn-glow { display: inline-flex; justify-content: center; align-items: center; gap: 12px; width: 100%; padding: 20px; background: linear-gradient(135deg, var(--action-light), var(--action-main)); border: none; border-radius: 16px; color: #fff; font-family: var(--ff-heading); font-size: 16px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 10px 25px -5px rgba(255, 69, 0, 0.5); position: relative; overflow: hidden; text-decoration: none; }
         .btn-glow::after { content: ''; position: absolute; top: -50%; left: -60%; width: 50%; height: 200%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent); transform: skewX(-20deg); animation: shine 3s infinite; }
@@ -288,6 +265,7 @@
             .mentor-stats { gap: 20px; }
             .mechanism-section { padding: 60px 0; }
             .section-padding { padding: 60px 0; }
+            .objection-list { grid-template-columns: 1fr !important; }
         }
     </style>
 </head>
@@ -334,21 +312,7 @@
         </div>
     </section>
 
-    <!-- ================= 3. COMMON ENEMY ================= -->
-    <section class="container reveal">
-        <div class="enemy-box">
-            <span class="enemy-tag">⚠️ POR QUE NADA FUNCIONOU ATÉ AGORA</span>
-            <h2 style="font-family: var(--ff-heading); font-size: 26px; margin-bottom: 24px; color:#fff; line-height:1.35;">Você não tem um problema de esforço. Tem um problema de método.</h2>
-            <p style="color: rgba(255,255,255,0.55); font-size: 16px; line-height: 1.9;">
-                Você já tentou <b style="color:#fff;">postar todo dia</b> — reels, stories, carrossel — e mesmo assim os seguidores não viram clientes.<br><br>
-                Você já pensou em <b style="color:#fff;">investir em tráfego pago</b>, mas o custo é alto e o retorno é incerto. Ou pior: já investiu e tomou prejuízo.<br><br>
-                Você já dependeu de <b style="color:#fff;">indicação e boca-a-boca</b>, mas isso é imprevisível — um mês vai, o outro não vai.<br><br>
-                O problema não é você. O problema é que ninguém te ensinou a <b style="color:#10B981;">ir até onde o seu cliente está e chamar a atenção dele</b>. Você estava esperando o cliente te achar, quando deveria estar <b style="color:#10B981;">aparecendo pra ele todos os dias</b>.
-            </p>
-        </div>
-    </section>
-
-    <!-- ================= 4. MECHANISM: 3 STEPS ================= -->
+    <!-- ================= 3. MECHANISM: 3 STEPS ================= -->
     <section class="mechanism-section">
         <div class="container">
             <div class="section-header reveal">
@@ -383,35 +347,7 @@
         </div>
     </section>
 
-    <!-- ================= 5. FEATURES (WHY IT WORKS) ================= -->
-    <section class="section-padding" style="background: rgba(255,255,255,0.02); border-top: 1px solid var(--border-light); border-bottom: 1px solid var(--border-light);">
-        <div class="container">
-            <div class="section-header reveal">
-                <span class="section-tag">Por Que Funciona</span>
-                <h2 class="section-title">Simples. Rápido.<br>Sem Complicação.</h2>
-            </div>
-
-            <div class="features-grid reveal">
-                <div class="feature-card">
-                    <div class="feature-card__icon">💰</div>
-                    <h3 class="feature-card__title">Custo Zero</h3>
-                    <p class="feature-card__desc">Esqueça tráfego pago. A estratégia usa alcance orgânico inteligente. Você só precisa do celular e conexão com a internet.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-card__icon">⚡</div>
-                    <h3 class="feature-card__title">Dividido em 4 Blocos por Dia</h3>
-                    <p class="feature-card__desc">25 interações de manhã, 25 ao meio-dia, 25 à tarde, 25 à noite. Tudo pelo celular, nos intervalos do seu dia. No final do mês: 3.000 possíveis clientes te viram.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-card__icon">🎯</div>
-                    <h3 class="feature-card__title">Vender Sem Vender</h3>
-                    <p class="feature-card__desc">Você não pede pra ninguém comprar. Você aparece, gera interesse, e o cliente vem até você. É o oposto da venda chata — as pessoas querem te procurar.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ================= 6. MENTOR ================= -->
+    <!-- ================= 4. MENTOR ================= -->
     <section class="section-padding">
         <div class="container mentor-grid">
             <div class="mentor-img-wrapper reveal">
@@ -439,27 +375,16 @@
         </div>
     </section>
 
-    <!-- ================= 7. SOCIAL PROOF: WhatsApp Prints ================= -->
+    <!-- ================= 5. SOCIAL PROOF ================= -->
     <section class="section-padding" style="background: rgba(255,255,255,0.01);">
         <div class="container">
             <div class="section-header reveal" style="margin-bottom: 30px;">
-                <span class="section-tag" style="background: rgba(16, 185, 129, 0.1); color: var(--safe-green);">Resultados Reais</span>
-                <h2 class="section-title" style="font-size: clamp(26px, 4vw, 40px);">Eles aplicaram.<br>Olha o que aconteceu.</h2>
-                <p style="color: var(--text-muted); margin-top: 16px; font-size: 15px;">Resultados de alunos reais que aplicaram o Social Selling</p>
+                <span class="section-tag">Resultados Reais</span>
+                <h2 class="section-title" style="font-size: clamp(26px, 4vw, 40px);">Quem Aplicou, Colheu.</h2>
             </div>
 
             <div class="prints-masonry reveal">
                 <!-- Print 1 -->
-                <div class="mock-whatsapp">
-                    <div class="mock-wa-header">
-                        <img src="joaomarcos.webp" alt="João Marcos" class="mock-wa-avatar">
-                        <div><span class="mock-wa-name">João Marcos</span><span class="mock-wa-status">Prestador de serviço</span></div>
-                    </div>
-                    <div class="mock-bubble">Lucas, apliquei a estratégia da aula ontem à noite no meu Instagram. <div class="mock-bubble-time">10:14 <span class="mock-tick">✓✓</span></div></div>
-                    <div class="mock-bubble">Já recebi 3 mensagens no WhatsApp de gente querendo fechar. E o melhor: ninguém pechinhou. <div class="mock-bubble-time">10:15 <span class="mock-tick">✓✓</span></div></div>
-                </div>
-
-                <!-- Print 2 -->
                 <div class="mock-whatsapp">
                     <div class="mock-wa-header">
                         <img src="Bruna_F.webp" alt="Bruna F." class="mock-wa-avatar">
@@ -469,7 +394,7 @@
                     <div class="mock-bubble">Fiz minha primeira venda ontem seguindo o passo a passo. Tô em choque pq achei que não ia funcionar pra mim! <div class="mock-bubble-time">15:31 <span class="mock-tick">✓✓</span></div></div>
                 </div>
 
-                <!-- Print 3 -->
+                <!-- Print 2 -->
                 <div class="mock-whatsapp">
                     <div class="mock-wa-header">
                         <img src="Ricardo.webp" alt="Ricardo" class="mock-wa-avatar">
@@ -479,7 +404,7 @@
                     <div class="mock-bubble">Acordei com 5 directs pedindo pra fechar pedido. Nunca tinha acontecido isso no orgânico. <div class="mock-bubble-time">09:14 <span class="mock-tick">✓✓</span></div></div>
                 </div>
 
-                <!-- Print 4 -->
+                <!-- Print 3 -->
                 <div class="mock-whatsapp">
                     <div class="mock-wa-header">
                         <img src="camiladentista.webp" alt="Camila" class="mock-wa-avatar">
@@ -488,30 +413,10 @@
                     <div class="mock-bubble">Minha agenda de avaliações lotou pras próximas 2 semanas depois que comecei a usar a estratégia. <div class="mock-bubble-time">14:22 <span class="mock-tick">✓✓</span></div></div>
                     <div class="mock-bubble">Melhor investimento que fiz pro meu consultório. Obrigada! <div class="mock-bubble-time">14:23 <span class="mock-tick">✓✓</span></div></div>
                 </div>
-
-                <!-- Print 5 -->
-                <div class="mock-whatsapp">
-                    <div class="mock-wa-header">
-                        <img src="Felipe.webp" alt="Felipe M." class="mock-wa-avatar">
-                        <div><span class="mock-wa-name">Felipe M.</span><span class="mock-wa-status">Marketing freelancer</span></div>
-                    </div>
-                    <div class="mock-bubble">Parei minhas campanhas no Facebook Ads semana passada pq o lead tava caro demais. <div class="mock-bubble-time">18:40 <span class="mock-tick">✓✓</span></div></div>
-                    <div class="mock-bubble">Comecei a aplicar o Social Selling e já vieram 8 leads quentes no whats. Orgânico puro. Não acreditei. <div class="mock-bubble-time">18:42 <span class="mock-tick">✓✓</span></div></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ================= 8. AUDIO TESTIMONIALS ================= -->
-    <section class="section-padding" style="background: rgba(16, 185, 129, 0.03); border-top: 1px solid rgba(16, 185, 129, 0.08);">
-        <div class="container">
-            <div class="section-header reveal">
-                <span class="section-tag" style="color: var(--safe-green); background: rgba(16, 185, 129, 0.1);">Ouça Você Mesmo</span>
-                <h2 class="section-title">Depoimentos em Áudio<br>de Quem Aplicou.</h2>
             </div>
 
-            <div class="audio-grid">
-                <!-- Audio 1 -->
+            <!-- Audios inline -->
+            <div class="audio-grid" style="margin-top: 40px;">
                 <div class="audio-card reveal">
                     <div class="audio-card__user">
                         <img src="fthomem.webp" alt="Eduardo" class="audio-card__avatar-img">
@@ -543,7 +448,6 @@
                     </div>
                 </div>
 
-                <!-- Audio 2 -->
                 <div class="audio-card reveal">
                     <div class="audio-card__user">
                         <img src="ftmulher.webp" alt="Luana" class="audio-card__avatar-img">
@@ -578,102 +482,41 @@
         </div>
     </section>
 
-    <!-- ================= 9. WHAT YOU GET ================= -->
+    <!-- ================= 6. OBJECOES ================= -->
     <section class="section-padding">
         <div class="container">
             <div class="section-header reveal">
-                <span class="section-tag">O Que Você Recebe</span>
-                <h2 class="section-title">Tudo Que Está Incluso<br>No Seu Acesso.</h2>
+                <span class="section-tag">Antes de Decidir</span>
+                <h2 class="section-title">Eu Sei o Que Você<br>Tá Pensando.</h2>
             </div>
 
-            <div class="module-list reveal">
-                <div class="module-item">
-                    <div class="module-item__icon">🎓</div>
-                    <div>
-                        <div class="module-item__title">Aula Completa de Social Selling</div>
-                        <div class="module-item__desc">Uma aula prática e direta onde você aprende os 3 pilares: preparar o ambiente, chamar a atenção e converter. Tudo mostrado na tela do celular — é só assistir e replicar.</div>
-                    </div>
-                </div>
-                <div class="module-item">
-                    <div class="module-item__icon">🏗️</div>
-                    <div>
-                        <div class="module-item__title">Como Preparar Seu Instagram</div>
-                        <div class="module-item__desc">Aprenda a montar seu perfil pra que qualquer pessoa que chegar saiba na hora quem você é, o que faz, qual seu diferencial e o resultado que entrega. Sem precisar contratar designer.</div>
-                    </div>
-                </div>
-                <div class="module-item">
-                    <div class="module-item__icon">🎯</div>
-                    <div>
-                        <div class="module-item__title">Técnica de Chamar Atenção (100/dia)</div>
-                        <div class="module-item__desc">O método exato pra ir até onde seu cliente está no Instagram e fazer ele te notar. 25 de manhã, 25 ao meio-dia, 25 à tarde, 25 à noite = 3.000 possíveis clientes por mês.</div>
-                    </div>
-                </div>
-                <div class="module-item">
-                    <div class="module-item__icon">💰</div>
-                    <div>
-                        <div class="module-item__title">Estratégia de Conversão</div>
-                        <div class="module-item__desc">Como abordar quem começou a te seguir de volta, dar boas-vindas e puxar pra uma conversa de vendas natural — sem ser spam, sem ser chato. Vender sem vender.</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+            <div class="objection-list reveal" style="max-width: 700px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
 
-    <!-- ================= 10. VOZES DA CABECA (Objection Killer) ================= -->
-    <section class="section-padding">
-        <div class="container">
-            <div class="section-header reveal">
-                <span class="section-tag" style="background: rgba(239, 68, 68, 0.08); color: #EF4444;">Eu Sei o Que Você Tá Pensando</span>
-                <h2 class="section-title">Antes de Decidir,<br>Deixa Eu Ser Honesto.</h2>
-            </div>
-
-            <div class="objection-list reveal" style="max-width: 700px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px;">
-
-                <div class="objection-item" style="display: flex; align-items: flex-start; gap: 18px; background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 16px; padding: 24px; transition: 0.3s;">
-                    <div style="width: 40px; height: 40px; background: rgba(239, 68, 68, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0; border: 1px solid rgba(239, 68, 68, 0.2);">🤔</div>
+                <div class="objection-item" style="display: flex; align-items: flex-start; gap: 14px; background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 16px; padding: 22px; transition: 0.3s;">
                     <div>
-                        <div style="font-family: var(--ff-heading); font-size: 16px; font-weight: 700; margin-bottom: 6px; color: #EF4444;">"Isso não funciona pro meu nicho"</div>
-                        <div style="font-size: 14px; color: var(--text-muted); line-height: 1.6;">Já foi testado em +40 nichos diferentes. Dentistas, advogados, lojistas, personal trainers, freelancers, nutricionistas... O método é sobre <strong style="color:#fff;">comportamento de compra</strong>, não sobre nicho.</div>
+                        <div style="font-family: var(--ff-heading); font-size: 15px; font-weight: 700; margin-bottom: 6px; color: #fff;">"Não funciona pro meu nicho"</div>
+                        <div style="font-size: 13px; color: var(--text-muted); line-height: 1.6;">Funciona pra qualquer nicho. O método é sobre <strong style="color:#fff;">ir até o cliente</strong>, não sobre o que você vende.</div>
                     </div>
                 </div>
 
-                <div class="objection-item" style="display: flex; align-items: flex-start; gap: 18px; background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 16px; padding: 24px; transition: 0.3s;">
-                    <div style="width: 40px; height: 40px; background: rgba(239, 68, 68, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0; border: 1px solid rgba(239, 68, 68, 0.2);">🤔</div>
+                <div class="objection-item" style="display: flex; align-items: flex-start; gap: 14px; background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 16px; padding: 22px; transition: 0.3s;">
                     <div>
-                        <div style="font-family: var(--ff-heading); font-size: 16px; font-weight: 700; margin-bottom: 6px; color: #EF4444;">"Não tenho seguidores suficientes"</div>
-                        <div style="font-size: 14px; color: var(--text-muted); line-height: 1.6;">A Bruna fez a primeira venda com <strong style="color:#fff;">400 seguidores</strong>. O método não depende de audiência grande — depende de <strong style="color:#fff;">atrair a pessoa certa</strong>.</div>
+                        <div style="font-family: var(--ff-heading); font-size: 15px; font-weight: 700; margin-bottom: 6px; color: #fff;">"Não tenho seguidores"</div>
+                        <div style="font-size: 13px; color: var(--text-muted); line-height: 1.6;">Na aula, o Lucas demonstra com <strong style="color:#fff;">200 seguidores</strong>. O método não depende de audiência.</div>
                     </div>
                 </div>
 
-                <div class="objection-item" style="display: flex; align-items: flex-start; gap: 18px; background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 16px; padding: 24px; transition: 0.3s;">
-                    <div style="width: 40px; height: 40px; background: rgba(239, 68, 68, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0; border: 1px solid rgba(239, 68, 68, 0.2);">🤔</div>
+                <div class="objection-item" style="display: flex; align-items: flex-start; gap: 14px; background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 16px; padding: 22px; transition: 0.3s;">
                     <div>
-                        <div style="font-family: var(--ff-heading); font-size: 16px; font-weight: 700; margin-bottom: 6px; color: #EF4444;">"Não sei vender"</div>
-                        <div style="font-size: 14px; color: var(--text-muted); line-height: 1.6;">A estratégia é justamente <strong style="color:#fff;">vender sem vender</strong>. Você não precisa de lábia — você aparece, gera interesse, e o cliente vem até você. A aula te mostra exatamente como fazer isso.</div>
+                        <div style="font-family: var(--ff-heading); font-size: 15px; font-weight: 700; margin-bottom: 6px; color: #fff;">"Não sei vender"</div>
+                        <div style="font-size: 13px; color: var(--text-muted); line-height: 1.6;">A estratégia é <strong style="color:#fff;">vender sem vender</strong>. Você aparece, gera interesse, e o cliente vem até você.</div>
                     </div>
                 </div>
 
-                <div class="objection-item" style="display: flex; align-items: flex-start; gap: 18px; background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 16px; padding: 24px; transition: 0.3s;">
-                    <div style="width: 40px; height: 40px; background: rgba(239, 68, 68, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0; border: 1px solid rgba(239, 68, 68, 0.2);">🤔</div>
+                <div class="objection-item" style="display: flex; align-items: flex-start; gap: 14px; background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 16px; padding: 22px; transition: 0.3s;">
                     <div>
-                        <div style="font-family: var(--ff-heading); font-size: 16px; font-weight: 700; margin-bottom: 6px; color: #EF4444;">"Já tentei de tudo e nada deu certo"</div>
-                        <div style="font-size: 14px; color: var(--text-muted); line-height: 1.6;">Você tentou <strong style="color:#fff;">sem método</strong>. Postar sem estratégia não é tentar — é torcer. Isso aqui é um sistema com começo, meio e fim. Diferente de tudo que você já viu.</div>
-                    </div>
-                </div>
-
-                <div class="objection-item" style="display: flex; align-items: flex-start; gap: 18px; background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 16px; padding: 24px; transition: 0.3s;">
-                    <div style="width: 40px; height: 40px; background: rgba(239, 68, 68, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0; border: 1px solid rgba(239, 68, 68, 0.2);">🤔</div>
-                    <div>
-                        <div style="font-family: var(--ff-heading); font-size: 16px; font-weight: 700; margin-bottom: 6px; color: #EF4444;">"Será que vale o investimento?"</div>
-                        <div style="font-size: 14px; color: var(--text-muted); line-height: 1.6;">Custa <strong style="color:#fff;">menos que um almoço</strong>. Se gerar 1 único cliente, já pagou o investimento. E você ainda tem <strong style="color:#10B981;">7 dias de garantia</strong> pra testar sem risco.</div>
-                    </div>
-                </div>
-
-                <div class="objection-item" style="display: flex; align-items: flex-start; gap: 18px; background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 16px; padding: 24px; transition: 0.3s;">
-                    <div style="width: 40px; height: 40px; background: rgba(239, 68, 68, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0; border: 1px solid rgba(239, 68, 68, 0.2);">🤔</div>
-                    <div>
-                        <div style="font-family: var(--ff-heading); font-size: 16px; font-weight: 700; margin-bottom: 6px; color: #EF4444;">"Não tenho tempo"</div>
-                        <div style="font-size: 14px; color: var(--text-muted); line-height: 1.6;">A aula é <strong style="color:#fff;">curta e direto ao ponto</strong>. A execução é pelo celular, dividida em 4 blocos no dia. Se você tem tempo pra rolar o feed, tem tempo pra aplicar isso.</div>
+                        <div style="font-family: var(--ff-heading); font-size: 15px; font-weight: 700; margin-bottom: 6px; color: #fff;">"Será que vale R$97?"</div>
+                        <div style="font-size: 13px; color: var(--text-muted); line-height: 1.6;">Custa menos que um almoço. 1 cliente paga o investimento. E tem <strong style="color:#10B981;">7 dias de garantia</strong>.</div>
                     </div>
                 </div>
 
@@ -681,63 +524,7 @@
         </div>
     </section>
 
-    <!-- ================= 11. PAPO RETO — Custo da Inacao ================= -->
-    <section class="section-padding" style="background: rgba(239, 68, 68, 0.02); border-top: 1px solid rgba(239, 68, 68, 0.08); border-bottom: 1px solid rgba(239, 68, 68, 0.08);">
-        <div class="container">
-            <div style="max-width: 700px; margin: 0 auto; text-align: center;" class="reveal">
-                <span class="section-tag" style="background: rgba(239, 68, 68, 0.08); color: #EF4444;">Papo Reto</span>
-                <h2 class="section-title" style="margin-bottom: 30px;">Quanto Custa<br><span style="color: #EF4444;">NÃO</span> Resolver Isso?</h2>
-
-                <div style="display: flex; flex-direction: column; gap: 16px; text-align: left; margin-bottom: 40px;">
-
-                    <div style="display: flex; align-items: center; gap: 16px; background: rgba(239, 68, 68, 0.04); border: 1px solid rgba(239, 68, 68, 0.1); border-radius: 14px; padding: 18px 22px;">
-                        <span style="font-size: 24px; flex-shrink: 0;">📉</span>
-                        <span style="color: rgba(255,255,255,0.7); font-size: 15px;">Mais um mês <strong style="color:#fff;">sem clientes previsíveis</strong> — dependendo de indicação e sorte</span>
-                    </div>
-
-                    <div style="display: flex; align-items: center; gap: 16px; background: rgba(239, 68, 68, 0.04); border: 1px solid rgba(239, 68, 68, 0.1); border-radius: 14px; padding: 18px 22px;">
-                        <span style="font-size: 24px; flex-shrink: 0;">🔥</span>
-                        <span style="color: rgba(255,255,255,0.7); font-size: 15px;">Mais <strong style="color:#fff;">R$500 jogados em tráfego</strong> que não converte — ou horas criando conteúdo sem retorno</span>
-                    </div>
-
-                    <div style="display: flex; align-items: center; gap: 16px; background: rgba(239, 68, 68, 0.04); border: 1px solid rgba(239, 68, 68, 0.1); border-radius: 14px; padding: 18px 22px;">
-                        <span style="font-size: 24px; flex-shrink: 0;">⏰</span>
-                        <span style="color: rgba(255,255,255,0.7); font-size: 15px;">Mais <strong style="color:#fff;">3 meses postando todo dia</strong> sem resultado — tempo que você nunca recupera</span>
-                    </div>
-
-                </div>
-
-                <div style="background: var(--bg-card); border: 2px solid rgba(16, 185, 129, 0.2); border-radius: 20px; padding: 32px; margin-bottom: 30px;">
-                    <p style="color: var(--text-muted); font-size: 15px; margin-bottom: 16px;">A math é simples:</p>
-
-                    <div style="display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap; margin-bottom: 20px;">
-                        <div style="text-align: center;">
-                            <div style="font-family: var(--ff-heading); font-size: 28px; font-weight: 900; color: #EF4444;">R$500</div>
-                            <div style="font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px;">por mês em tráfego</div>
-                        </div>
-                        <div style="font-size: 24px; color: var(--text-muted);">=</div>
-                        <div style="text-align: center;">
-                            <div style="font-family: var(--ff-heading); font-size: 28px; font-weight: 900; color: #EF4444;">R$6.000</div>
-                            <div style="font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px;">por ano jogados fora</div>
-                        </div>
-                    </div>
-
-                    <div style="width: 60px; height: 2px; background: rgba(255,255,255,0.1); margin: 20px auto;"></div>
-
-                    <p style="font-family: var(--ff-heading); font-size: 22px; font-weight: 800; color: #10B981; margin-bottom: 8px;">
-                        R$97 resolve isso.
-                    </p>
-                    <p style="color: var(--text-muted); font-size: 14px;">
-                        O custo da inação é <strong style="color:#fff;">SEMPRE</strong> maior que o preço da solução.
-                    </p>
-                </div>
-
-                <a href="#pricing" class="btn-glow btn-green" style="max-width: 420px; margin: 0 auto;">Resolver Isso Agora por R$97</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ================= 12. PRICING ================= -->
+    <!-- ================= 7. PRICING ================= -->
     <section class="section-padding" id="pricing" style="background: rgba(0,0,0,0.5); border-top: 1px solid rgba(255,255,255,0.05);">
         <div class="container">
             <div class="section-header reveal">
@@ -797,49 +584,24 @@
             <div class="faq-list reveal">
                 <div class="faq-item">
                     <div class="faq-question">Funciona pra quem tem poucos seguidores? <span class="faq-arrow">▼</span></div>
-                    <div class="faq-answer"><div class="faq-answer__inner">Sim. Na própria aula, o Lucas demonstra a estratégia usando um Instagram com apenas 200 seguidores. O Social Selling funciona porque você vai ativamente até onde o cliente está — não precisa esperar o cliente te achar.</div></div>
+                    <div class="faq-answer"><div class="faq-answer__inner">Sim. Na própria aula, o Lucas demonstra com um Instagram de apenas 200 seguidores. O Social Selling funciona porque você vai até o cliente — não precisa esperar ele te achar.</div></div>
                 </div>
                 <div class="faq-item">
                     <div class="faq-question">Preciso investir em tráfego pago? <span class="faq-arrow">▼</span></div>
-                    <div class="faq-answer"><div class="faq-answer__inner">Não. A estratégia é 100% orgânica. Você não precisa gastar nenhum real com anúncios. Se quiser combinar com tráfego pago no futuro, pode — mas não é necessário para ter resultados.</div></div>
+                    <div class="faq-answer"><div class="faq-answer__inner">Não. A estratégia é 100% orgânica. Você não gasta nenhum real com anúncios. Se quiser combinar com tráfego no futuro, pode — mas não é necessário.</div></div>
                 </div>
                 <div class="faq-item">
-                    <div class="faq-question">Em quanto tempo vou ver resultado? <span class="faq-arrow">▼</span></div>
-                    <div class="faq-answer"><div class="faq-answer__inner">Você pode aplicar a estratégia no mesmo dia que assistir a aula. Na própria gravação, o Lucas ganhou 4 seguidores novos enquanto demonstrava ao vivo. Depende da sua dedicação e constância, mas os resultados podem vir já nos primeiros dias.</div></div>
+                    <div class="faq-question">Em quanto tempo vejo resultado? <span class="faq-arrow">▼</span></div>
+                    <div class="faq-answer"><div class="faq-answer__inner">Você aplica no mesmo dia. Na própria gravação, o Lucas ganhou 4 seguidores enquanto demonstrava ao vivo. Depende da sua constância, mas os resultados podem vir nos primeiros dias.</div></div>
                 </div>
                 <div class="faq-item">
-                    <div class="faq-question">Funciona pro meu nicho? <span class="faq-arrow">▼</span></div>
-                    <div class="faq-answer"><div class="faq-answer__inner">O Social Selling funciona para qualquer pessoa que vende serviços, produtos físicos ou digitais. Na aula, o Lucas dá exemplos práticos pra diferentes nichos: lojas, prestadores de serviço, freelancers e mais. A lógica é a mesma: vá até onde seu cliente está.</div></div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">E se eu não souber vender? <span class="faq-arrow">▼</span></div>
-                    <div class="faq-answer"><div class="faq-answer__inner">A estratégia é justamente "vender sem vender". Você não precisa ser vendedor. A aula te ensina a chamar atenção do cliente de forma natural (curtindo, comentando) e abordar de forma simples quando a pessoa começa a te seguir. Sem pressão, sem ser chato.</div></div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">Preciso de alguma ferramenta ou software? <span class="faq-arrow">▼</span></div>
-                    <div class="faq-answer"><div class="faq-answer__inner">Não. Tudo que você precisa é um celular com Instagram e WhatsApp. Sem ferramentas pagas, sem plataformas complicadas, sem equipe. É você e seu celular.</div></div>
+                    <div class="faq-question">Preciso de ferramenta ou software? <span class="faq-arrow">▼</span></div>
+                    <div class="faq-answer"><div class="faq-answer__inner">Não. Só um celular com Instagram e WhatsApp. Sem ferramentas pagas, sem plataformas complicadas. É você e seu celular.</div></div>
                 </div>
                 <div class="faq-item">
                     <div class="faq-question">Como funciona a garantia? <span class="faq-arrow">▼</span></div>
-                    <div class="faq-answer"><div class="faq-answer__inner">Você tem 7 dias para assistir a aula, aplicar a estratégia e avaliar os resultados. Se por qualquer motivo não ficar satisfeito, basta solicitar o reembolso direto pela plataforma Eduzz. Devolvemos 100% do valor sem perguntas.</div></div>
+                    <div class="faq-answer"><div class="faq-answer__inner">7 dias. Se não ficar satisfeito, solicita o reembolso pela Eduzz. Devolvemos 100% sem perguntas.</div></div>
                 </div>
-                <div class="faq-item">
-                    <div class="faq-question">O acesso é vitalício? <span class="faq-arrow">▼</span></div>
-                    <div class="faq-answer"><div class="faq-answer__inner">Sim. Você compra uma vez e tem acesso para sempre. Assista quantas vezes quiser, no seu ritmo.</div></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ================= 13. FINAL CTA ================= -->
-    <section class="final-cta">
-        <div class="container reveal">
-            <h2 class="section-title" style="margin-bottom: 16px;">Pronto pra Atrair Clientes<br>Todos os Dias?</h2>
-            <p style="color: var(--text-muted); font-size: 17px; max-width: 550px; margin: 0 auto 32px;">
-                Por apenas <strong style="color:#10B981;">12x de R$ 9,70</strong>, você aprende a estratégia completa de Social Selling + acesso vitalício + garantia de 7 dias.
-            </p>
-            <div style="max-width: 420px; margin: 0 auto;">
-                <a href="#pricing" class="btn-glow btn-green">Garantir Meu Acesso Agora</a>
             </div>
         </div>
     </section>
