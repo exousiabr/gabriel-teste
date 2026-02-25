@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social Selling — Clientes Todos os Dias Pelo Instagram</title>
-    <meta name="description" content="Aprenda a estratégia de Social Selling em 3 passos que transforma seu Instagram em uma máquina de clientes. Sem anúncios, sem dancinha, sem milhares de seguidores.">
+    <title>Clientes Todos os Dias Pelo Instagram — Sem Anúncios</title>
+    <meta name="description" content="Descubra o método em 3 passos que transforma seu Instagram em uma máquina de clientes. Sem anúncios, sem dancinha, sem milhares de seguidores.">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 100 100&quot;><text y=&quot;.9em&quot; font-size=&quot;90&quot;>🔓</text></svg>">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -289,7 +289,7 @@
             </h1>
 
             <p class="hero-subtitle reveal">
-                A estratégia de <strong>Social Selling</strong> em 3 passos que já gerou <strong>+30 mil vendas</strong>. Assista a aula, aplique no mesmo dia e comece a atrair clientes <strong>ainda hoje</strong>.
+                O método em 3 passos que já gerou <strong>+30 mil vendas</strong>. Assista a aula, aplique no mesmo dia e comece a atrair clientes <strong>ainda hoje</strong>.
             </p>
 
             <!-- VSL PLACEHOLDER: Substituir por embed de vídeo quando disponível -->
@@ -316,7 +316,7 @@
     <section class="mechanism-section">
         <div class="container">
             <div class="section-header reveal">
-                <span class="section-tag">Social Selling</span>
+                <span class="section-tag">O Método</span>
                 <h2 class="section-title">3 Passos Simples.<br>Clientes Todos os Dias.</h2>
             </div>
 
@@ -324,25 +324,25 @@
                 <div class="step-card">
                     <div class="step-number">1</div>
                     <div class="step-card__icon">🏗️</div>
-                    <h3 class="step-card__title">Prepare o Ambiente</h3>
+                    <h3 class="step-card__title">Prepare</h3>
                     <p class="step-card__desc">Arrume seu Instagram pra quando o cliente chegar, ele entender na hora quem você é, o que faz e qual resultado entrega. Simples e rápido.</p>
                 </div>
                 <div class="step-card">
                     <div class="step-number">2</div>
                     <div class="step-card__icon">🎯</div>
-                    <h3 class="step-card__title">Chame a Atenção</h3>
-                    <p class="step-card__desc">Vá até os perfis onde seu cliente está e interaja: curta, comente, apareça. 25 de manhã, 25 ao meio-dia, 25 à tarde, 25 à noite. 3.000 clientes por mês te veem.</p>
+                    <h3 class="step-card__title">Apareça</h3>
+                    <p class="step-card__desc">Use a técnica ensinada na aula pra fazer seu cliente ideal te notar todos os dias — sem gastar com anúncio, sem depender de algoritmo.</p>
                 </div>
                 <div class="step-card">
                     <div class="step-number">3</div>
                     <div class="step-card__icon">💰</div>
                     <h3 class="step-card__title">Converta</h3>
-                    <p class="step-card__desc">A pessoa começou a te seguir? Mande boas-vindas, puxe uma conversa e apresente sua solução. Vender sem vender — sem ser o "vendedor chato".</p>
+                    <p class="step-card__desc">Aprenda a abordagem exata pra transformar interesse em venda — de forma natural, sem ser o "vendedor chato". Tudo ensinado na aula.</p>
                 </div>
             </div>
 
             <div class="mechanism-note reveal">
-                <p>O passo a passo completo é ensinado na <strong>aula de Social Selling</strong> — uma aula prática e direta onde você aprende a estratégia e já aplica no mesmo dia.</p>
+                <p>O passo a passo completo é ensinado na <strong>aula prática</strong> — você assiste, entende a lógica e já aplica no mesmo dia.</p>
             </div>
         </div>
     </section>
@@ -368,7 +368,7 @@
                 </div>
                 <div class="mentor-bio">
                     <p>Não é guru de internet. É <strong>operador de vendas</strong>. Já faturou mais de R$ 10 milhões e fez mais de 30 mil vendas na internet — e agora te ensina a estratégia exata que ele usa todos os dias nas próprias empresas.</p>
-                    <p style="margin-top: 14px;">Nesta aula ele compartilha a tela do celular e te mostra, na prática, como aplicar Social Selling pra atrair clientes pagantes sem gastar com anúncios.</p>
+                    <p style="margin-top: 14px;">Nesta aula ele compartilha a tela do celular e te mostra, na prática, o método exato que ele usa pra atrair clientes pagantes sem gastar com anúncios.</p>
                 </div>
                 <a href="#pricing" class="btn-glow btn-green" style="padding: 16px 32px; font-size: 14px; max-width: 320px;">Acessar o Método Agora</a>
             </div>
@@ -400,7 +400,7 @@
                         <img src="Ricardo.webp" alt="Ricardo" class="mock-wa-avatar">
                         <div><span class="mock-wa-name">Ricardo</span><span class="mock-wa-status">Dono de loja de roupas</span></div>
                     </div>
-                    <div class="mock-bubble">Apliquei o Social Selling pro Instagram da minha loja. Fiquei comentando nas páginas que meu cliente segue. <div class="mock-bubble-time">09:12 <span class="mock-tick">✓✓</span></div></div>
+                    <div class="mock-bubble">Lucas, apliquei o método no Instagram da minha loja. Fiz exatamente o que tá na aula. <div class="mock-bubble-time">09:12 <span class="mock-tick">✓✓</span></div></div>
                     <div class="mock-bubble">Acordei com 5 directs pedindo pra fechar pedido. Nunca tinha acontecido isso no orgânico. <div class="mock-bubble-time">09:14 <span class="mock-tick">✓✓</span></div></div>
                 </div>
 
@@ -538,9 +538,9 @@
                     <img src="mockup97.webp" alt="Acesso Completo" style="width: 100%; display: block; margin: 10px auto 24px; border-radius: 12px;">
 
                     <div class="value-stack-list">
-                        <div class="value-stack-item"><span>✓ Aula completa de Social Selling</span><span class="vs-price">Incluso</span></div>
-                        <div class="value-stack-item"><span>✓ Passo 1: Preparar o Ambiente</span><span class="vs-price">Incluso</span></div>
-                        <div class="value-stack-item"><span>✓ Passo 2: Chamar a Atenção (100/dia)</span><span class="vs-price">Incluso</span></div>
+                        <div class="value-stack-item"><span>✓ Aula completa com o método dos 3 passos</span><span class="vs-price">Incluso</span></div>
+                        <div class="value-stack-item"><span>✓ Passo 1: Preparar seu Instagram</span><span class="vs-price">Incluso</span></div>
+                        <div class="value-stack-item"><span>✓ Passo 2: Aparecer pro cliente certo</span><span class="vs-price">Incluso</span></div>
                         <div class="value-stack-item"><span>✓ Passo 3: Converter sem ser chato</span><span class="vs-price">Incluso</span></div>
                         <div class="value-stack-item"><span>✓ Acesso vitalício</span><span class="vs-price">Incluso</span></div>
                     </div>
@@ -564,7 +564,7 @@
                 <div style="font-size: 64px; margin-bottom: 20px;">🛡️</div>
                 <h2 class="section-title" style="margin-bottom: 20px;">Garantia Blindada<br>de 7 Dias</h2>
                 <p style="color: var(--text-muted); font-size: 17px; max-width: 550px; margin: 0 auto 24px; line-height: 1.8;">
-                    Assista à aula, aplique os 3 passos do Social Selling. Se em 7 dias você não ficar satisfeito com o que aprendeu, basta apertar um botão e devolvemos <strong style="color:#10B981;">100% do seu dinheiro</strong>. Sem perguntas, sem burocracia.
+                    Assista à aula, aplique os 3 passos do método. Se em 7 dias você não ficar satisfeito com o que aprendeu, basta apertar um botão e devolvemos <strong style="color:#10B981;">100% do seu dinheiro</strong>. Sem perguntas, sem burocracia.
                 </p>
                 <p style="color: rgba(255,255,255,0.35); font-size: 14px;">
                     O risco é todo nosso. Você não tem nada a perder.
@@ -584,7 +584,7 @@
             <div class="faq-list reveal">
                 <div class="faq-item">
                     <div class="faq-question">Funciona pra quem tem poucos seguidores? <span class="faq-arrow">▼</span></div>
-                    <div class="faq-answer"><div class="faq-answer__inner">Sim. Na própria aula, o Lucas demonstra com um Instagram de apenas 200 seguidores. O Social Selling funciona porque você vai até o cliente — não precisa esperar ele te achar.</div></div>
+                    <div class="faq-answer"><div class="faq-answer__inner">Sim. Na própria aula, o Lucas demonstra com um Instagram de apenas 200 seguidores. O método funciona independente do tamanho da sua audiência.</div></div>
                 </div>
                 <div class="faq-item">
                     <div class="faq-question">Preciso investir em tráfego pago? <span class="faq-arrow">▼</span></div>
